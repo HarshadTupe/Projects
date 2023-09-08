@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="/CSS/css/bootstrap.css">
+    <link rel="stylesheet" href="/CSS/mcq.css">
+</head>
+<body>
+    <div class="container-fluid result d-none">
+        <div class="row">
+            <div class="col-6 box p-4 text-light">
+                <div class="border p-3">
+                    <h4 class="mb-4 class text-center">FINAL RESULT</h4>
+                    <div class="h-75">
+                        <p>Total questions not attempt:<span class="not_attempt">20</span></p>
+                        <p>Total questions attempt: <span class="attempt">0</span></p>
+                        <p>Total right answer: <span class="correct_ans">0</span></p>
+                        <p >Total wrong answer: <span  class="wrong">20</span></p>
+                    </div>
+                    <div class="text-center h-25">
+                        <input type="button" class="btn me-1 w-50 rounded-0 text-light" value="KNOW ANSWER">
+                        <input type="button" class="btn me-1 rounded-0 text-light" value="RETRY">
+                        <input type="button" class="btn rounded-0 text-light" name="close-btn" value="CLOSE">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid text-light">
+        <div class="row">
+            <div class=" col-12 header text-center fs-2   ">
+                ONLINE MOCK-TEST
+            </div>
+            <div class="col-12 main-section">
+                <div class="row h-100 d-flex align-item-center">
+                    <div class="col"></div>
+                    <div class="col-6 shadow-lg questions pt-3 mt-5">
+                        <ol>
+                            <li class="d-block">
+                                <div>Q1. ABC</div>
+                                <ul>
+                                    <li><input type="radio" > 1</li>
+                                    <li><input type="radio" >2</li>
+                                    <li><input type="radio" >3</li>
+                                    <li><input type="radio" >4</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div>Q2. ABC</div>
+                                <ul>
+                                    <li><input type="radio" >1</li>
+                                    <li><input type="radio" >2</li>
+                                    <li><input type="radio" >3</li>
+                                    <li><input type="radio" >4</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div>Q3.</div>
+                                <ul>
+                                    <li><input type="radio" >1</li>
+                                    <li><input type="radio" >2</li>
+                                    <li><input type="radio" >3</li>
+                                    <li><input type="radio" >4</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div>Q4. ABC</div>
+                                <ul>
+                                    <li><input type="radio" >1</li>
+                                    <li><input type="radio" >2</li>
+                                    <li><input type="radio" >3</li>
+                                    <li><input type="radio" >4</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div>Q5. ABC</div>
+                                <ul>
+                                    <li><input type="radio">1</li>
+                                    <li><input type="radio" >2</li>
+                                    <li><input type="radio"  >3</li>
+                                    <li><input type="radio" >4</li>
+                                </ul>
+                            </li> 
+                                <li>
+                                    <div>Q6. ABC</div>
+                                    <ul>
+                                        <li><input type="radio">1</li>
+                                        <li><input type="radio" >2</li>
+                                        <li><input type="radio"  >3</li>
+                                        <li><input type="radio" >4</li>
+                                    </ul>
+                                </li> 
+                                <li>
+                                    <div>Q7. ABC</div>
+                                    <ul>
+                                        <li><input type="radio">1</li>
+                                        <li><input type="radio" >2</li>
+                                        <li><input type="radio"  >3</li>
+                                        <li><input type="radio" >4</li>
+                                    </ul>
+                                </li> 
+                                <li>
+                                    <div>Q8. ABC</div>
+                                    <ul>
+                                        <li><input type="radio">1</li>
+                                        <li><input type="radio" >2</li>
+                                        <li><input type="radio"  >3</li>
+                                        <li><input type="radio" >4</li>
+                                    </ul>
+                                </li>
+                            <li>
+                                <div>Q9. ABC</div>
+                                <ul>
+                                    <li><input type="radio">1</li>
+                                    <li><input type="radio" >2</li>
+                                    <li><input type="radio" >3</li>
+                                    <li><input type="radio" >4</li>
+                                </ul>
+                            </li> 
+                            <li>
+                                <div>Q10. ABC</div>
+                                <ul>
+                                    <li><input type="radio">1</li>
+                                    <li><input type="radio" >2</li>
+                                    <li><input type="radio"  >3</li>
+                                    <li><input type="radio" >4</li>
+                                </ul>
+                            </li> 
+                           
+                        </ol>
+                        <input type="button" value="PREV" class="btn prev d-none">
+                        <input type="button" value="NEXT" class="btn next">
+                        <input type="button" value="SUBMIT" class="btn bg-danger d-none">
+                    </div>
+                    <div class="col"></div>
+                    <div class="col-3 shadow-lg sequence mt-5 pt-3">
+                        <ul class="p-0">
+                            <li class="badge active">1</li>
+                            <li class="badge">2</li>
+                            <li class="badge">3</li>
+                            <li class="badge">4</li>
+                            <li class="badge">5</li>
+                            <li class="badge">6</li>
+                            <li class="badge">7</li>
+                            <li class="badge">8</li>
+                            <li class="badge">9</li>
+                            <li class="badge">10</li>
+                        </ul>
+                    </div>
+                    <div class="col"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="/JS/jquery-3.7.0.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.prev').click(function(){
+                const selector = $(this).parent().find('.d-block');
+                if($(selector).prev().is('li')){
+                  
+                    $(selector).prev().addClass('d-block');
+                    $(selector).prev().removeClass('d-none');
+                    $(selector).next().removeClass('d-block');
+                    $(selector).addClass('d-none');
+                    $(selector).removeClass('d-block');
+                    if((selector).index()==1){
+                        $(this).addClass('d-none');
+                    }
+                    $('.questions').find('.bg-danger').addClass('d-none');
+                    $('.questions').find('.next').removeClass('d-none');
+                    var a=$(selector).index();
+                    $('.badge').eq(a-1).addClass('active');
+                    $('.badge').eq(a-1).prevAll().removeClass('active');
+                    $('.badge').eq(a-1).nextAll().removeClass('active');
+                }
+            });
+            $('.next').click(function(){
+                const selector = $(this).parent().find('.d-block');
+                if($(selector).next().is('li')){
+                    $(selector).next().addClass('d-block');
+                    $(selector).next().removeClass('d-none');
+                    $(selector).addClass('d-none');
+                    $(selector).removeClass('d-block');
+                    $(this).prev().removeClass('d-none');
+                    var a=$(selector).index();
+                    $('.badge').eq(a+1).addClass('active');
+                    $('.badge').eq(a+1).prevAll().removeClass('active');
+                    $('.badge').eq(a+1).nextAll().removeClass('active');
+                }
+                else{
+                    $(this).addClass('d-none');
+                    $(this).next().removeClass('d-none');
+                }
+            });
+            $('.badge').click(function(){
+                var a = $(this).index();
+                $('.questions ol > li').eq(a).prevAll().addClass('d-none');
+                $('.questions ol > li').eq(a).nextAll().removeClass('d-none');
+                $('.questions ol > li').eq(a).prevAll().removeClass('d-block');
+                $('.questions ol > li').eq(a).nextAll().removeClass('d-block');
+                $('.questions ol > li').eq(a).addClass('d-block');
+                $('.questions ol > li').eq(a).removeClass('d-none');
+                $(this).addClass('active');
+                $(this).prevAll().removeClass('active');
+                $(this).nextAll().removeClass('active');
+                if(a!=0){
+                    $('.questions').find('.prev').removeClass('d-none');
+                }
+                else{
+                    $('.questions').find('.prev').addClass('d-none');
+                }
+                if(a==9){
+                    $('.questions').find('.next').addClass('d-none');
+                    $('.questions').find('.bg-danger').removeClass('d-none');
+                }
+                else{
+                    $('.questions').find('.bg-danger').addClass('d-none');
+                    $('.questions').find('.next').removeClass('d-none');
+                }
+            });
+             $('.bg-danger').click(function(){
+                $('.result').removeClass('d-none');
+                $('.box').fadeIn();
+                var attempt=$(':radio:checked').length; 
+                $('.box').find('.attempt').text(attempt);
+
+                var not_attempt= 10-attempt; 
+                $('.box').find('.not_attempt').text(not_attempt);
+
+                var correct=$("input:radio.right_answer:checked").length; 
+                $('.box').find('.correct_ans').text(correct);
+
+                var wrong=attempt-correct;
+                $('.box').find('.wrong').text(wrong);
+            });
+            $('input[name="close-btn"]').click(function(){
+                $('.box').fadeOut();
+                $('.result').addClass('d-none');
+            });
+        });
+    </script>
+</body>
+</html>

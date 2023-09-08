@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+header{
+    height: 7vh;
+    background-color: rgb(24, 24, 24);
+    color:white;
+    display: flex;
+    padding: 1rem;
+}
+.exit{
+    padding-left: 58rem;
+}
+.exit span{
+    margin-left: 1rem;
+}
+.container{
+     width: 100%;
+     height: 90vh; 
+    /* display: flex;  */
+    border: 1px solid black;
+   
+}
+.left-container{
+    width: 20%;
+    height: 90vh;
+    background-color: rgb(170, 169, 169);
+}
+.left-container img{
+    width: 100%;
+    height: 50%;
+
+}
+
+.left-container button{
+    width: 70%;
+    border: none;
+    border-radius:0.5rem;
+    background-color: rgb(58, 148, 26);
+    color:white;
+    cursor: pointer;
+    padding: 0.6rem;
+    margin-top: 1rem;
+    margin-left: 2.5rem;
+    box-shadow: 5px 10px 8px #888888;
+    
+}
+.left-container .btn{
+    background-color: orange;
+}
+.left-container hr{
+    width: 90%;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+.left-container h3{
+    text-align: center;
+    margin-top: 1.5rem;
+    
+}
+.checked {
+    color: orange;
+}
+
+  .left-container textarea{
+    margin-left: 2rem;
+    margin-top: 1rem;
+    
+  }
+.right-container{
+    width: 80%;
+    height: 90vh;
+    /* background-color: blue; */
+    position: absolute;
+    top: 3.2rem;
+    left: 19rem;
+}
+ 
+.left-container .star{
+    margin-left: 5.5rem;
+}
+.left-container .star span{
+    font-size: 1.5rem;
+}
+footer{
+    width: 100%;
+    height: 3vh;
+    background-color: rgb(53, 53, 53);
+    color: white;
+    padding-left: 2rem;
+}
+.data{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    background-color: #F4F4F4;
+    border-bottom: 1px solid rgb(60, 60, 60);
+    
+}
+.first-data{
+    margin-left: 10rem;
+    margin-top: 1rem;
+}
+.first-data h1{
+    padding-top: 2rem;
+    color: #535252;
+}
+.first-data h2{
+    padding-top: 2rem;
+    font-size: 3rem;
+    color: blue;
+}
+.first-data p{
+    color: gray;
+}
+.data-wrap{
+    margin-left: 15rem;
+
+}
+.data-wrap h1{
+    padding-top: 3rem;
+    color: #535252;
+}
+.data-wrap h2{
+    padding-top: 1rem;
+    color: green;
+}
+.data-wrap h3{
+    padding-top: rem;
+    color:green;
+    font-size: 2rem;
+}
+.data-wrap img{
+    position: relative;
+    left: 20rem;
+    bottom: 10rem;
+    width: 60%;
+}
+.right-container button{
+    width: 25%;
+    padding: 0.7rem;
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
+    border: none;
+    margin-top: 10rem;
+    margin-left: 25rem;
+}
+.right-container .butt{
+    width: 20%;
+    padding: 0.7rem;
+    border-radius: 5px;
+    background-color:gray;
+    color: white;
+    border: none;
+    margin-top: 1.5rem;
+    margin-left: 27rem;
+    text-align: center;
+}
+.tool{
+    width: 20%;
+    height: 20vh;
+    /* border: 1px solid black; */
+    position: relative;
+    bottom:33rem;
+    left: -6rem;
+    background-color:  rgb(225 220 220);
+    padding: 1rem;
+}
+.tip{
+    position: relative;
+    bottom:33rem;
+    left: -6rem;
+    background-color:  rgb(225 220 220);
+   
+}
+.tip::before {
+    content: '';
+    position: absolute;
+    display: block;    
+    width: 0px;        
+    left: 0.5rem;
+    top: -4rem;
+    border: 15px solid transparent;
+    border-left: 0;
+    border-right: 25px solid rgb(225 220 220);
+    transform: translate(calc(-100% - 5px), -50%);
+  }
+/* ..................................................... */
+.left-container .bttn{
+    background-color: orange;
+    opacity: 40%;
+}
+.second-div{
+    margin-top: 1rem;
+}
+.second-div h3{
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+.second-div p{
+    margin-top: 1rem;
+    margin-left: 3rem;
+}
+.second-div h4{
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+.second-div .label-radio {
+    margin-left: 1rem;
+}
+.second-div .label-radio input {
+    margin-left: 2.5rem;
+    margin-top: 1rem;
+}
+.second-div .label-radio label {
+    margin-left: 1rem;
+}
+.submit{
+    width: 15%;
+    padding: 0.7rem;
+    border-radius: 5px;
+    background-color:orange;
+    color: white;
+    border: none;
+    margin-top: 4rem;
+    margin-left: 3rem;
+    text-align: center;
+}
+/* ................................................... */
+.tool-second{
+    width: 20%;
+    height: 20vh;
+    /* border: 1px solid black; */
+    position: relative;
+    bottom:38rem;
+    left: -6rem;
+    background-color:  rgb(225 220 220);
+    padding: 1rem;
+}
+.tip-second{
+    position: relative;
+    bottom:38rem;
+    left: -6rem;
+    background-color:  rgb(225 220 220);
+   
+}
+.tip-second::before {
+    content: '';
+    position: absolute;
+    display: block;    
+    width: 0px;        
+    left: 0.5rem;
+    top: -4rem;
+    border: 15px solid transparent;
+    border-left: 0;
+    border-right: 25px solid rgb(225 220 220);
+    transform: translate(calc(-100% - 5px), -50%);
+  }
+  /* ...................................................... */
